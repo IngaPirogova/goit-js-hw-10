@@ -17,4 +17,15 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+ 
+}
+
+#search-box:hover,
+#search-box:focus  {  
+  border-color: blue;
+  outline: blue;
+}
+
+.country-list {
+  list-style: none;
 }
