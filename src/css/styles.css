@@ -16,8 +16,7 @@ body {
   font: inherit;
   padding: 8px;
   max-width: 320px;
-  margin-bottom: 16px;
- 
+  margin-bottom: 16px; 
 }
 
 #search-box:hover,
@@ -28,4 +27,11 @@ body {
 
 .country-list {
   list-style: none;
+  
+}
+
+.item_country {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }

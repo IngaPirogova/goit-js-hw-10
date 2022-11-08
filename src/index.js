@@ -38,7 +38,7 @@ function listCountrySearch(response) {
     const markup = response
         .map(el => {
             return `<li class="item_country">
-            <img class="img" src="${el.flags.svg}" width = 30 alt="flag">
+            <img class="img" src="${el.flags.svg}" width = 50 alt="flag">
             <h3 class="title">${el.name.official}</h3>
             </li>`;
         })
