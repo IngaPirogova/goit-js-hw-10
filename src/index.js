@@ -60,7 +60,6 @@ function arrayCountrySearch(response) {
     .join('');
     countryInfo.innerHTML = markup;
 }
-
 function clearSearchCountry() {
     countryList.innerHTML = '';
     countryInfo.innerHTML = '';
