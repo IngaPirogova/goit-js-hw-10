@@ -13,7 +13,7 @@ countryInput.addEventListener('input', debounce(inputCountry, DEBOUNCE_DELAY));
 
 function inputCountry(e) {
     const countryName = e.target.value.trim();
-    if (countryName === "") {
+    if (!countryName) {
         return;
     }
 fetchCountries(countryName)
